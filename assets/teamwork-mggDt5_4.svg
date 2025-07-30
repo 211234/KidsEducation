@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8F9FA"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="250" width="400" height="50" fill="#E9ECEF"/>
+  
+  <!-- Blackboard -->
+  <rect x="20" y="30" width="120" height="80" fill="#2F5233" stroke="#1A3D1F" stroke-width="3"/>
+  
+  <!-- Students forming a circle and doing high-five -->
+  <!-- Center point for the circle formation -->
+  
+  <!-- Student 1 (left) -->
+  <circle cx="150" cy="150" r="18" fill="#F4C2A1"/>
+  <!-- Hair -->
+  <path d="M 135 140 Q 150 130 165 140 Q 160 145 150 150 Q 140 145 135 140" fill="#8B4513"/>
+  <!-- Body -->
+  <rect x="140" y="168" width="20" height="35" fill="#3498DB"/>
+  <!-- Arms reaching toward center -->
+  <ellipse cx="170" cy="175" rx="15" ry="6" fill="#F4C2A1" transform="rotate(30 170 175)"/>
+  <ellipse cx="130" cy="175" rx="8" ry="12" fill="#F4C2A1"/>
+  <!-- Legs -->
+  <rect x="142" y="203" width="8" height="25" fill="#2C3E50"/>
+  <rect x="152" y="203" width="8" height="25" fill="#2C3E50"/>
+  
+  <!-- Student 2 (top) -->
+  <circle cx="200" cy="120" r="18" fill="#D4A574"/>
+  <!-- Hair -->
+  <path d="M 185 110 Q 200 100 215 110 Q 210 115 200 120 Q 190 115 185 110" fill="#2C3E50"/>
+  <!-- Body -->
+  <rect x="190" y="138" width="20" height="35" fill="#E74C3C"/>
+  <!-- Arms reaching toward center -->
+  <ellipse cx="200" cy="155" rx="6" ry="15" fill="#F4C2A1"/>
+  <ellipse cx="180" cy="150" rx="12" ry="8" fill="#F4C2A1" transform="rotate(-30 180 150)"/>
+  <!-- Legs -->
+  <rect x="192" y="173" width="8" height="25" fill="#2C3E50"/>
+  <rect x="202" y="173" width="8" height="25" fill="#2C3E50"/>
+  
+  <!-- Student 3 (right) -->
+  <circle cx="250" cy="150" r="18" fill="#F4C2A1"/>
+  <!-- Hair -->
+  <path d="M 235 140 Q 250 130 265 140 Q 260 145 250 150 Q 240 145 235 140" fill="#D4A574"/>
+  <!-- Body -->
+  <rect x="240" y="168" width="20" height="35" fill="#9B59B6"/>
+  <!-- Arms reaching toward center -->
+  <ellipse cx="230" cy="175" rx="15" ry="6" fill="#F4C2A1" transform="rotate(-30 230 175)"/>
+  <ellipse cx="270" cy="175" rx="8" ry="12" fill="#F4C2A1"/>
+  <!-- Legs -->
+  <rect x="242" y="203" width="8" height="25" fill="#2C3E50"/>
+  <rect x="252" y="203" width="8" height="25" fill="#2C3E50"/>
+  
+  <!-- Student 4 (bottom right) -->
+  <circle cx="230" cy="190" r="18" fill="#8B4513"/>
+  <!-- Hair -->
+  <path d="M 215 180 Q 230 170 245 180 Q 240 185 230 190 Q 220 185 215 180" fill="#2C3E50"/>
+  <!-- Body -->
+  <rect x="220" y="208" width="20" height="35" fill="#F39C12"/>
+  <!-- Arms reaching toward center -->
+  <ellipse cx="215" cy="215" rx="12" ry="8" fill="#F4C2A1" transform="rotate(-45 215 215)"/>
+  <ellipse cx="245" cy="215" rx="12" ry="8" fill="#F4C2A1" transform="rotate(45 245 215)"/>
+  <!-- Legs -->
+  <rect x="222" y="243" width="8" height="25" fill="#2C3E50"/>
+  <rect x="232" y="243" width="8" height="25" fill="#2C3E50"/>
+  
+  <!-- Student 5 (bottom left) -->
+  <circle cx="170" cy="190" r="18" fill="#F4C2A1"/>
+  <!-- Hair -->
+  <path d="M 155 180 Q 170 170 185 180 Q 180 185 170 190 Q 160 185 155 180" fill="#8B4513"/>
+  <!-- Body -->
+  <rect x="160" y="208" width="20" height="35" fill="#27AE60"/>
+  <!-- Arms reaching toward center -->
+  <ellipse cx="185" cy="215" rx="12" ry="8" fill="#F4C2A1" transform="rotate(45 185 215)"/>
+  <ellipse cx="155" cy="215" rx="12" ry="8" fill="#F4C2A1" transform="rotate(-45 155 215)"/>
+  <!-- Legs -->
+  <rect x="162" y="243" width="8" height="25" fill="#2C3E50"/>
+  <rect x="172" y="243" width="8" height="25" fill="#2C3E50"/>
+  
+  <!-- Central high-five point -->
+  <circle cx="200" cy="165" r="8" fill="#FFD700" opacity="0.7"/>
+  <circle cx="200" cy="165" r="12" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+  <circle cx="200" cy="165" r="16" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Hands meeting in the center -->
+  <circle cx="195" cy="160" r="4" fill="#F4C2A1"/>
+  <circle cx="205" cy="160" r="4" fill="#D4A574"/>
+  <circle cx="200" cy="155" r="4" fill="#F4C2A1"/>
+  <circle cx="190" cy="170" r="4" fill="#8B4513"/>
+  <circle cx="210" cy="170" r="4" fill="#F4C2A1"/>
+  
+  <!-- Happy expressions -->
+  <!-- Student 1 -->
+  <circle cx="145" cy="145" r="2" fill="#2C3E50"/>
+  <circle cx="155" cy="145" r="2" fill="#2C3E50"/>
+  <path d="M 145 155 Q 150 160 155 155" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Student 2 -->
+  <circle cx="195" cy="115" r="2" fill="#2C3E50"/>
+  <circle cx="205" cy="115" r="2" fill="#2C3E50"/>
+  <path d="M 195 125 Q 200 130 205 125" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Student 3 -->
+  <circle cx="245" cy="145" r="2" fill="#2C3E50"/>
+  <circle cx="255" cy="145" r="2" fill="#2C3E50"/>
+  <path d="M 245 155 Q 250 160 255 155" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Student 4 -->
+  <circle cx="225" cy="185" r="2" fill="#2C3E50"/>
+  <circle cx="235" cy="185" r="2" fill="#2C3E50"/>
+  <path d="M 225 195 Q 230 200 235 195" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Student 5 -->
+  <circle cx="165" cy="185" r="2" fill="#2C3E50"/>
+  <circle cx="175" cy="185" r="2" fill="#2C3E50"/>
+  <path d="M 165 195 Q 170 200 175 195" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Positive energy lines -->
+  <path d="M 180 140 Q 200 130 220 140" stroke="#FFD700" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 160 170 Q 200 150 240 170" stroke="#FFD700" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 180 200 Q 200 180 220 200" stroke="#FFD700" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>
