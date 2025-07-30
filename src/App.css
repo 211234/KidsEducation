@@ -1,0 +1,37 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--theme-bg);
+  color: var(--theme-text);
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+
+.app__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__game-container {
+  flex: 1;
+  padding: var(--spacing-xl) 0;
+  background: var(--theme-bg);
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Animaciones globales */
+.app__main > * {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app__game-container {
+    padding: var(--spacing-md) 0;
+    min-height: calc(100vh - 60px);
+  }
+}

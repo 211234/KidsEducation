@@ -1,0 +1,9 @@
+/* Este archivo se mantiene para compatibilidad con Vite */
+/* Los estilos principales están en src/styles/global.css */
+
+@import './styles/global.css';
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

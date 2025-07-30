@@ -1,0 +1,118 @@
+.card {
+  background: var(--theme-card-bg);
+  border-radius: var(--border-radius-lg);
+  border: 1px solid var(--theme-border);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Variantes */
+.card--default {
+  background: var(--theme-card-bg);
+}
+
+.card--primary {
+  background: linear-gradient(135deg, rgba(74, 144, 226, 0.05) 0%, rgba(144, 19, 254, 0.05) 100%);
+  border-color: var(--primary-blue);
+}
+
+.card--success {
+  background: linear-gradient(135deg, rgba(126, 211, 33, 0.05) 0%, rgba(40, 167, 69, 0.05) 100%);
+  border-color: var(--primary-green);
+}
+
+.card--warning {
+  background: linear-gradient(135deg, rgba(255, 149, 0, 0.05) 0%, rgba(255, 210, 63, 0.05) 100%);
+  border-color: var(--secondary-orange);
+}
+
+/* Padding */
+.card--padding-small {
+  padding: var(--spacing-sm);
+}
+
+.card--padding-medium {
+  padding: var(--spacing-md);
+}
+
+.card--padding-large {
+  padding: var(--spacing-lg);
+}
+
+.card--padding-none {
+  padding: 0;
+}
+
+/* Sombras */
+.card--shadow-none {
+  box-shadow: none;
+}
+
+.card--shadow-light {
+  box-shadow: var(--shadow-light);
+}
+
+.card--shadow-medium {
+  box-shadow: var(--shadow-medium);
+}
+
+.card--shadow-heavy {
+  box-shadow: var(--shadow-heavy);
+}
+
+/* Clickable */
+.card--clickable {
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.card--clickable:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-heavy);
+}
+
+.card--clickable:focus {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+.card--clickable:active {
+  transform: translateY(-2px);
+}
+
+/* Efectos especiales */
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.card:hover::before {
+  left: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card--padding-medium {
+    padding: var(--spacing-sm);
+  }
+  
+  .card--padding-large {
+    padding: var(--spacing-md);
+  }
+}

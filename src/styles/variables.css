@@ -1,0 +1,89 @@
+:root {
+  /* Paleta de colores educativa y amigable */
+  
+  /* Colores primarios - Azul educativo y verde natural */
+  --primary-blue: #4A90E2;        /* Azul confiable y profesional */
+  --primary-blue-light: #8BB8F1;  /* Azul claro para fondos y elementos secundarios */
+  --primary-green: #7ED321;       /* Verde energético y positivo */
+  --primary-purple: #9013FE;      /* Púrpura creativo */
+  
+  /* Colores secundarios - Tonos cálidos y acogedores */
+  --secondary-orange: #FF9500;    /* Naranja motivacional */
+  --secondary-yellow: #FFD23F;    /* Amarillo alegre */
+  --secondary-pink: #FF6B9D;      /* Rosa suave y amigable */
+  
+  /* Colores neutros - Base sólida */
+  --neutral-white: #FFFFFF;
+  --neutral-light: #F8F9FA;       /* Gris muy claro */
+  --neutral-medium: #E9ECEF;      /* Gris claro */
+  --neutral-dark: #495057;        /* Gris oscuro para texto */
+  --neutral-black: #212529;
+  
+  /* Colores de estado */
+  --success: #28A745;             /* Verde éxito */
+  --warning: #FFC107;             /* Amarillo advertencia */
+  --error: #DC3545;               /* Rojo error */
+  --info: #17A2B8;                /* Azul información */
+  
+  /* Gradientes educativos */
+  --gradient-primary: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-purple) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--secondary-orange) 0%, var(--secondary-yellow) 100%);
+  --gradient-success: linear-gradient(135deg, var(--primary-green) 0%, var(--success) 100%);
+  
+  /* Sombras suaves */
+  --shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-heavy: 0 8px 16px rgba(0, 0, 0, 0.2);
+  
+  /* Tipografía */
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-heading: 'Poppins', var(--font-family-primary);
+  
+  /* Espaciado */
+  --spacing-xs: 0.25rem;   /* 4px */
+  --spacing-sm: 0.5rem;    /* 8px */
+  --spacing-md: 1rem;      /* 16px */
+  --spacing-lg: 1.5rem;    /* 24px */
+  --spacing-xl: 2rem;      /* 32px */
+  --spacing-xxl: 3rem;     /* 48px */
+  
+  /* Bordes */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  
+  /* Transiciones */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Theme Variables */
+  --theme-bg: var(--neutral-white);
+  --theme-text: var(--neutral-dark);
+  --theme-card-bg: var(--neutral-white);
+  --theme-border: var(--neutral-medium);
+  --theme-shadow: var(--shadow-medium);
+  
+  /* Navigation Theme Variables */
+  --nav-bg: var(--neutral-white);
+  --nav-text: var(--neutral-dark);
+  --nav-border: var(--neutral-medium);
+  --nav-shadow: var(--shadow-light);
+}
+
+/* Tema oscuro - Afecta toda la aplicación */
+.dark-theme {
+  /* Theme Variables */
+  --theme-bg: #1a1a1a;
+  --theme-text: var(--neutral-white);
+  --theme-card-bg: #2d2d2d;
+  --theme-border: #404040;
+  --theme-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  
+  /* Navigation Theme Variables */
+  --nav-bg: #1a1a1a;
+  --nav-text: var(--neutral-white);
+  --nav-border: #404040;
+  --nav-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}

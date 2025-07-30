@@ -1,0 +1,87 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="560" height="80" fill="#4a90e2" rx="10"/>
+  <text x="300" y="50" text-anchor="middle" fill="white" font-size="24" font-weight="bold">CONFLICTOS ESCOLARES</text>
+  <text x="300" y="75" text-anchor="middle" fill="white" font-size="14">Guía completa para entender y resolver</text>
+  
+  <!-- What are conflicts section -->
+  <rect x="30" y="120" width="250" height="180" fill="#e8f4fd" rx="8" stroke="#4a90e2" stroke-width="2"/>
+  <text x="155" y="145" text-anchor="middle" fill="#2c3e50" font-size="16" font-weight="bold">¿QUÉ SON?</text>
+  <text x="50" y="170" fill="#34495e" font-size="12">• Desacuerdos entre estudiantes</text>
+  <text x="50" y="190" fill="#34495e" font-size="12">• Diferencias de opinión</text>
+  <text x="50" y="210" fill="#34495e" font-size="12">• Problemas de comunicación</text>
+  <text x="50" y="230" fill="#34495e" font-size="12">• Tensiones emocionales</text>
+  <text x="50" y="250" fill="#34495e" font-size="12">• Competencia no saludable</text>
+  <text x="50" y="270" fill="#34495e" font-size="12">• Malentendidos frecuentes</text>
+  
+  <!-- Causes section -->
+  <rect x="320" y="120" width="250" height="180" fill="#fff3cd" rx="8" stroke="#ffc107" stroke-width="2"/>
+  <text x="445" y="145" text-anchor="middle" fill="#2c3e50" font-size="16" font-weight="bold">CAUSAS</text>
+  <text x="340" y="170" fill="#34495e" font-size="12">• Falta de habilidades sociales</text>
+  <text x="340" y="190" fill="#34495e" font-size="12">• Presión académica</text>
+  <text x="340" y="210" fill="#34495e" font-size="12">• Diferencias culturales</text>
+  <text x="340" y="230" fill="#34495e" font-size="12">• Problemas familiares</text>
+  <text x="340" y="250" fill="#34495e" font-size="12">• Bullying o acoso</text>
+  <text x="340" y="270" fill="#34495e" font-size="12">• Estrés emocional</text>
+  
+  <!-- Effects section -->
+  <rect x="30" y="320" width="250" height="180" fill="#f8d7da" rx="8" stroke="#dc3545" stroke-width="2"/>
+  <text x="155" y="345" text-anchor="middle" fill="#2c3e50" font-size="16" font-weight="bold">EFECTOS</text>
+  <text x="50" y="370" fill="#34495e" font-size="12">• Bajo rendimiento académico</text>
+  <text x="50" y="390" fill="#34495e" font-size="12">• Ansiedad y estrés</text>
+  <text x="50" y="410" fill="#34495e" font-size="12">• Aislamiento social</text>
+  <text x="50" y="430" fill="#34495e" font-size="12">• Baja autoestima</text>
+  <text x="50" y="450" fill="#34495e" font-size="12">• Problemas de conducta</text>
+  <text x="50" y="470" fill="#34495e" font-size="12">• Ambiente escolar tóxico</text>
+  
+  <!-- Solutions section -->
+  <rect x="320" y="320" width="250" height="180" fill="#d4edda" rx="8" stroke="#28a745" stroke-width="2"/>
+  <text x="445" y="345" text-anchor="middle" fill="#2c3e50" font-size="16" font-weight="bold">SOLUCIONES</text>
+  <text x="340" y="370" fill="#34495e" font-size="12">• Mediación escolar</text>
+  <text x="340" y="390" fill="#34495e" font-size="12">• Educación emocional</text>
+  <text x="340" y="410" fill="#34495e" font-size="12">• Comunicación asertiva</text>
+  <text x="340" y="430" fill="#34495e" font-size="12">• Trabajo en equipo</text>
+  <text x="340" y="450" fill="#34495e" font-size="12">• Apoyo psicológico</text>
+  <text x="340" y="470" fill="#34495e" font-size="12">• Programas de convivencia</text>
+  
+  <!-- Steps section -->
+  <rect x="30" y="520" width="540" height="220" fill="#e7f3ff" rx="8" stroke="#4a90e2" stroke-width="2"/>
+  <text x="300" y="545" text-anchor="middle" fill="#2c3e50" font-size="18" font-weight="bold">PASOS PARA RESOLVER CONFLICTOS</text>
+  
+  <!-- Step 1 -->
+  <circle cx="80" cy="580" r="20" fill="#4a90e2"/>
+  <text x="80" y="585" text-anchor="middle" fill="white" font-size="14" font-weight="bold">1</text>
+  <text x="120" y="575" fill="#2c3e50" font-size="14" font-weight="bold">IDENTIFICAR</text>
+  <text x="120" y="590" fill="#34495e" font-size="12">Reconocer el problema</text>
+  
+  <!-- Step 2 -->
+  <circle cx="320" cy="580" r="20" fill="#4a90e2"/>
+  <text x="320" y="585" text-anchor="middle" fill="white" font-size="14" font-weight="bold">2</text>
+  <text x="360" y="575" fill="#2c3e50" font-size="14" font-weight="bold">ESCUCHAR</text>
+  <text x="360" y="590" fill="#34495e" font-size="12">Entender todas las partes</text>
+  
+  <!-- Step 3 -->
+  <circle cx="80" cy="640" r="20" fill="#4a90e2"/>
+  <text x="80" y="645" text-anchor="middle" fill="white" font-size="14" font-weight="bold">3</text>
+  <text x="120" y="635" fill="#2c3e50" font-size="14" font-weight="bold">DIALOGAR</text>
+  <text x="120" y="650" fill="#34495e" font-size="12">Comunicación respetuosa</text>
+  
+  <!-- Step 4 -->
+  <circle cx="320" cy="640" r="20" fill="#4a90e2"/>
+  <text x="320" y="645" text-anchor="middle" fill="white" font-size="14" font-weight="bold">4</text>
+  <text x="360" y="635" fill="#2c3e50" font-size="14" font-weight="bold">ACORDAR</text>
+  <text x="360" y="650" fill="#34495e" font-size="12">Buscar soluciones juntos</text>
+  
+  <!-- Step 5 -->
+  <circle cx="200" cy="700" r="20" fill="#28a745"/>
+  <text x="200" y="705" text-anchor="middle" fill="white" font-size="14" font-weight="bold">5</text>
+  <text x="240" y="695" fill="#2c3e50" font-size="14" font-weight="bold">SEGUIMIENTO</text>
+  <text x="240" y="710" fill="#34495e" font-size="12">Evaluar resultados</text>
+  
+  <!-- Footer -->
+  <rect x="20" y="760" width="560" height="30" fill="#6c757d" rx="5"/>
+  <text x="300" y="780" text-anchor="middle" fill="white" font-size="12">💡 Recuerda: La comunicación es la clave para resolver conflictos</text>
+</svg>

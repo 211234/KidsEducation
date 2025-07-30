@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F5F5F5"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="250" width="400" height="50" fill="#E0E0E0"/>
+  
+  <!-- Wall -->
+  <rect x="0" y="0" width="400" height="250" fill="#FAFAFA"/>
+  
+  <!-- Desk/Table -->
+  <rect x="150" y="180" width="100" height="15" fill="#8B4513"/>
+  <rect x="155" y="195" width="10" height="30" fill="#654321"/>
+  <rect x="235" y="195" width="10" height="30" fill="#654321"/>
+  
+  <!-- Victim student (sitting, head down) -->
+  <circle cx="80" cy="160" r="18" fill="#F4C2A1"/>
+  <!-- Hair -->
+  <path d="M 65 150 Q 80 140 95 150 Q 90 155 80 160 Q 70 155 65 150" fill="#8B4513"/>
+  <!-- Body (hunched over) -->
+  <rect x="70" y="178" width="20" height="30" fill="#2E86AB"/>
+  <!-- Arms (covering face) -->
+  <ellipse cx="65" cy="185" rx="8" ry="15" fill="#F4C2A1" transform="rotate(-20 65 185)"/>
+  <ellipse cx="95" cy="185" rx="8" ry="15" fill="#F4C2A1" transform="rotate(20 95 185)"/>
+  <!-- Legs -->
+  <rect x="72" y="208" width="8" height="20" fill="#34495E"/>
+  <rect x="82" y="208" width="8" height="20" fill="#34495E"/>
+  
+  <!-- Bully 1 (pointing) -->
+  <circle cx="180" cy="140" r="18" fill="#F4C2A1"/>
+  <!-- Hair -->
+  <path d="M 165 130 Q 180 120 195 130 Q 190 135 180 140 Q 170 135 165 130" fill="#D4A574"/>
+  <!-- Body -->
+  <rect x="170" y="158" width="20" height="35" fill="#E74C3C"/>
+  <!-- Pointing arm -->
+  <ellipse cx="155" cy="170" rx="12" ry="6" fill="#F4C2A1" transform="rotate(-30 155 170)"/>
+  <!-- Other arm -->
+  <ellipse cx="195" cy="175" rx="8" ry="15" fill="#F4C2A1"/>
+  <!-- Legs -->
+  <rect x="172" y="193" width="8" height="25" fill="#2C3E50"/>
+  <rect x="182" y="193" width="8" height="25" fill="#2C3E50"/>
+  
+  <!-- Bully 2 (laughing) -->
+  <circle cx="230" cy="145" r="18" fill="#D4A574"/>
+  <!-- Hair -->
+  <path d="M 215 135 Q 230 125 245 135 Q 240 140 230 145 Q 220 140 215 135" fill="#2C3E50"/>
+  <!-- Body -->
+  <rect x="220" y="163" width="20" height="35" fill="#F39C12"/>
+  <!-- Arms (on hips) -->
+  <ellipse cx="210" cy="175" rx="8" ry="12" fill="#F4C2A1"/>
+  <ellipse cx="250" cy="175" rx="8" ry="12" fill="#F4C2A1"/>
+  <!-- Legs -->
+  <rect x="222" y="198" width="8" height="25" fill="#2C3E50"/>
+  <rect x="232" y="198" width="8" height="25" fill="#2C3E50"/>
+  
+  <!-- Bully 3 (standing behind) -->
+  <circle cx="280" cy="150" r="18" fill="#F4C2A1"/>
+  <!-- Hair -->
+  <path d="M 265 140 Q 280 130 295 140 Q 290 145 280 150 Q 270 145 265 140" fill="#8B4513"/>
+  <!-- Body -->
+  <rect x="270" y="168" width="20" height="35" fill="#9B59B6"/>
+  <!-- Arms crossed -->
+  <ellipse cx="260" cy="180" rx="8" ry="12" fill="#F4C2A1" transform="rotate(30 260 180)"/>
+  <ellipse cx="300" cy="180" rx="8" ry="12" fill="#F4C2A1" transform="rotate(-30 300 180)"/>
+  <!-- Legs -->
+  <rect x="272" y="203" width="8" height="25" fill="#2C3E50"/>
+  <rect x="282" y="203" width="8" height="25" fill="#2C3E50"/>
+  
+  <!-- Supportive friend (approaching) -->
+  <circle cx="320" cy="155" r="18" fill="#F4C2A1"/>
+  <!-- Hair -->
+  <path d="M 305 145 Q 320 135 335 145 Q 330 150 320 155 Q 310 150 305 145" fill="#D4A574"/>
+  <!-- Body -->
+  <rect x="310" y="173" width="20" height="35" fill="#27AE60"/>
+  <!-- Arms (reaching out) -->
+  <ellipse cx="300" cy="185" rx="12" ry="6" fill="#F4C2A1" transform="rotate(-20 300 185)"/>
+  <ellipse cx="335" cy="185" rx="8" ry="12" fill="#F4C2A1"/>
+  <!-- Legs -->
+  <rect x="312" y="208" width="8" height="25" fill="#2C3E50"/>
+  <rect x="322" y="208" width="8" height="25" fill="#2C3E50"/>
+  
+  <!-- Emotional indicators -->
+  <!-- Sad face on victim -->
+  <circle cx="75" cy="155" r="2" fill="#2C3E50"/>
+  <circle cx="85" cy="155" r="2" fill="#2C3E50"/>
+  <path d="M 75 165 Q 80 160 85 165" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Mean expressions on bullies -->
+  <circle cx="175" cy="135" r="2" fill="#2C3E50"/>
+  <circle cx="185" cy="135" r="2" fill="#2C3E50"/>
+  <path d="M 175 145 Q 180 150 185 145" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Concerned expression on friend -->
+  <circle cx="315" cy="150" r="2" fill="#2C3E50"/>
+  <circle cx="325" cy="150" r="2" fill="#2C3E50"/>
+  <path d="M 315 160 Q 320 155 325 160" stroke="#2C3E50" stroke-width="2" fill="none"/>
+</svg>
